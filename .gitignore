@@ -1,0 +1,43 @@
+# Database files (Securing sensitive database scripts and dumps)
+database.sql
+*.sql
+*.sqlite
+*.db
+
+# Environment and configuration
+.env
+.env.*
+config.local.php
+
+# Server & Application Logs
+*.log
+error_log
+access_log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary & Cache files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Uploaded user content (keep default placeholders)
+images/uploads/
+!images/default.png
+!images/default_candidate.png
